@@ -1,0 +1,115 @@
+NEGATIVE TEST CASES - 50 Test Cases for Chat Sinhala Transliteration
+Registration: IT23183186
+========================================================================
+
+TC_ID | Input Length | Input | Expected Output | Input Type(s) Covered | Rationale
+----- | ------------ | ----- | --------------- | --------------------- | ---------
+
+QUESTION FORMS (2 cases):
+Neg_0001 | S | oyata weddi kiyala kiwwa? | ඔයාට වැඩ්ඩි කියලා කිව්වා? | Question forms | Question with 'weddi' spelling variant
+Neg_0002 | M | mata eyata kawadda katha karannam? wagena? | මට එයාට කවද්ද තා කරන්නම්? වගෙනා? | Question forms | Multi-part question with multiple clauses
+
+COMMAND FORMS (2 cases):
+Neg_0003 | S | amma eka podak karanna. | අම්මා එක පඩාක් කරන්න. | Command forms | Command with simple imperative
+Neg_0004 | M | mata oyage number eka dapana kiyala, then WhatsApp ekak karannam. | මට ඔයාකේ number එක දාපලා කියලා, then WhatsApp එකක් කරන්නම්. | Command forms, Platform/App Names | Command with English word insertions
+
+GREETINGS (2 cases):
+Neg_0005 | S | Anekobo! suba welawak apage atulakda veevaa! | අනෙකොබෝ! සුභ කවලාවක් අපකේ අටුලකද කව්වා! | Greetings | Greeting with spelling variants
+Neg_0006 | M | Ayubowanda mata! kemathi innava? api apage wewedduwa thiyenne. | ආයුබෝවන්ද මට! කෙමති ඉන්නවා? අපි අපකේ වවැඩදුව තිකයන්කන්. | Greetings | Formal greeting with multiple clauses
+
+REQUESTS (2 cases):
+Neg_0007 | S | mata podak balanna puluwannam. | මට පඩාක් බලන්න පුලුවන්නම්. | Requests | Simple request with conditional
+Neg_0008 | M | oyata please eka mama gate enata msg ekak ewanna puluwan kada? | ඔයාට please එක මම gate එනට msg එකක් එවන්න පුලුවන් කද? | Requests, Isolated English Word Insertions | Request with English word insertions
+
+RESPONSES (2 cases):
+Neg_0009 | S | ane, hari hari mama eka karala inna. | අනේ, හරි හරි මම එක කරලා ඉන්න. | Responses | Positive response with repetition
+Neg_0010 | M | Oyata ne, mama eka dunna ainee. Hari avurudu karana kiyala ainee. | ඔයාට නේ, මම එක දුන්න අයිනේ. හරි අවුරුද කරන කියලා අයිනේ. | Responses | Multiple part response
+
+REPEATED WORDS (2 cases):
+Neg_0011 | S | Choti choti karanava, nathnam ammaru weyi. | චෝටි චෝටි කරනවා, නැත්නම් අමාරු කවයි. | Repeated Words | Repeated adjective with warning
+Neg_0012 | M | Api api ekayi, mathak bala kota welata yamuda? | අපි අපි එකයි, මතක බලා කොට කවලට යමුද? | Repeated Words | Repeated pronoun in phrase
+
+INPUTS WITH PUNCTUATION MARKS (2 cases):
+Neg_0013 | S | mata eka denna... oyath balanna puluwan kada? | මට එක දෙන්න... ඔයාත් බලන්න පුලුවන් කද? | Inputs with Punctuation Marks | Ellipsis usage in question
+Neg_0014 | M | ane! mama ayata katha karannam... kiyalaa oyata wadak hama? | අනේ! මම අයාට තා කරන්නම්... කියලා ඔයාට වඩක් හම? | Inputs with Punctuation Marks | Multiple punctuation marks (!...)
+
+ROMANIZATION / SPELLING VARIANTS (2 cases):
+Neg_0015 | S | mang oyat passe katha karannam. | මං ඔයාට පසේනසේ තා කරන්නම්. | Romanization / Spelling Variants | 'mang' instead of 'man'
+Neg_0016 | M | api ape rata adrae. oyage gama adrae. | අපි අකේ රට ආදරෙයි. ඔයාකේ ගම ආදරෙයි. | Romanization / Spelling Variants | Multiple spelling variant forms
+
+ISOLATED ENGLISH WORD INSERTIONS IN SINGLISH (2 cases):
+Neg_0017 | S | mata password eka forget karada? | මට password එක forget කරාද? | Isolated English Word Insertions in Singlish | Single English technical term
+Neg_0018 | M | oyage document eka email karannam, then signature liyanda add karanna. | ඔයාකේ document එක email කරන්නම්, then signature ලියඳ add කරන්න. | Isolated English Word Insertions in Singlish | Multiple isolated English words
+
+MULTI-WORD ENGLISH PHRASES IN SINGLISH (2 cases):
+Neg_0019 | S | api as soon as possible yamuda? | අපි as soon as possible යමුද? | Multi-Word English Phrases in Singlish | English phrase embedded
+Neg_0020 | M | mama office awe, kiyanna feeling tired very bad. oyata just wait karanna. | මම office ආකව්, කියන්න feeling tired very bad. ඔයාට just wait කරන්න. | Multi-Word English Phrases in Singlish | Multiple English phrases
+
+ENGLISH DIGITAL TERMS IN SINGLISH (2 cases):
+Neg_0021 | S | oyage account eka logout karada? | ඔයාකේ account එක logout කරාද? | English Digital Terms in Singlish | Digital term 'account' and 'logout'
+Neg_0022 | M | mata download karanna puluwan kada? file format eka CSV walakura? | මට download කරන්න පුලුවන් කද? file format එක CSV වලකුරා? | English Digital Terms in Singlish | Multiple digital/technical terms
+
+PLATFORM/APP NAMES IN SINGLISH (2 cases):
+Neg_0023 | S | mata Instagram message ekak evanna. | මට Instagram message එකක් එවන්න. | Platform/App Names in Singlish | App name embedded
+Neg_0024 | M | Telegram eken notification thamai? Gmail check karada? mata notification ekat comment dennama. | Telegram එන්කේ notification තමයි? Gmail check කරාද? මට notification එකට comment කදන්නම. | Platform/App Names in Singlish | Multiple app names
+
+ENGLISH ABBREVIATIONS/ACRONYMS IN SINGLISH (2 cases):
+Neg_0025 | S | mata COVID test eka karannam. | මට COVID test එක කරන්නම්. | English Abbreviations/Acronyms in Singlish | Health acronym
+Neg_0026 | M | oyage ID eka copy karada? PDF file eka convert karanna puluwanda? | ඔයාකේ ID එක copy කරාද? PDF file එක convert කරන්න පුලුවන්ද? | English Abbreviations/Acronyms in Singlish | Multiple acronyms
+
+ENGLISH CLIPPED FORMS IN SINGLISH (2 cases):
+Neg_0027 | S | mata uni eke exam ganna kalin study karanna. | මට uni එකක් exam ගන්න කලින් study කරන්න. | English Clipped Forms in Singlish | Clipped form 'uni'
+Neg_0028 | M | ape lab ekedi project ekak ganna kalin demo karanna karunakarala. | අකේ lab එකක්දී project එකක් ගන්න කලින් demo කරන්න කරුණාකරලා. | English Clipped Forms in Singlish | Multiple clipped forms
+
+PLACE NAMES EMBEDDED IN SINGLISH (2 cases):
+Neg_0029 | S | api Galle walata yamuda? | අපි Galle වලට යමුද? | Place Names Embedded in Singlish | Single place name
+Neg_0030 | M | ada hawasata api Colombo Fort walata game karamu? Dematagoda eketin yamuda? | අද වසට අපි Colombo Fort වලට game කරමු? Dematagoda එකතින් යමුද? | Place Names Embedded in Singlish | Multiple place names
+
+PERSON NAMES EMBEDDED IN SINGLISH (2 cases):
+Neg_0031 | S | Sachini meeting ekedi veyda? | සචිනි meeting එකක්දී කවයිද? | Person Names Embedded in Singlish | Single person name
+Neg_0032 | M | Pradeep saha Dilshan dennama project eka pooja kara? Jayasena eko pasal eka inna. | ප්‍රදීප් සහ දිල්ශান් කදන්නම project එක පුජා කරා? ජයසෙන ඕකෝ පසල එක ඉන්න. | Person Names Embedded in Singlish | Multiple person names
+
+INPUTS WITH NUMBERS AND NUMERIC SUFFIXES (2 cases):
+Neg_0033 | S | mama exam ekedi 75n 100yama aragena. | මම exam එකක්දී 75න් 100යම අරකගන. | Inputs with Numbers and Numeric Suffixes | Score with numeric suffix
+Neg_0034 | M | api 5 dina kola yamuda? 2025 awurudhe api apage planne karala. | අපි 5 දිනක කෝල යමුද? 2025 අවුරුධෙ අපි අපකේ පලන්න කරලා. | Inputs with Numbers and Numeric Suffixes | Multiple numeric forms
+
+INPUTS WITH CURRENCY (2 cases):
+Neg_0035 | S | mata USD 100 denna puluwan kada? | මට USD 100 දෙන්න පුලුවන් කද? | Inputs with Currency | Foreign currency
+Neg_0036 | M | oyage salary eka Rs. 50000 kiyanne rupiyal lokuge best kada? GBP 2000 kiyala ayagena. | ඔයාකේ salary එක Rs. 50000 කියන්කන් රුපියේ ලෝකුගේ best කද? GBP 2000 කියලා අයාගෙන. | Inputs with Currency | Multiple currency types
+
+INPUTS WITH TIME FORMATS (2 cases):
+Neg_0037 | S | meeting eka 2:45PM ekata schedule karada? | meeting එක 2:45PM එකට schedule කරාද? | Inputs with Time Formats | Time with period notation
+Neg_0038 | M | api 08:30 AM ekata inna karunakarala. 6.00 PM walata class thamai. | අපි 08:30 AM එකට ඉන්න කරුණාකරලා. 6.00 PM ෙලට class තමයි. | Inputs with Time Formats | Multiple time formats
+
+INPUTS WITH DATES (2 cases):
+Neg_0039 | S | appointment eka 2026-03-15 ekata booking karada? | appointment එක 2026-03-15 එකට booking කරාද? | Inputs with Dates | ISO date format
+Neg_0040 | M | next holiday eka 5th May walata ayinaawa. birthday eka 14/02/2026 ekata celebrate karannam. | next holiday එක 5th May ෙලට අයිනාවා. birthday එක 14/02/2026 එකට celebrate කරන්නම්. | Inputs with Dates | Multiple date formats
+
+INPUTS WITH UNIT OF MEASUREMENTS (2 cases):
+Neg_0041 | S | mama 2kg withara poth kanne. | මම 2kg විතර පෝත් කන්කන්. | Inputs with Unit of Measurements | Weight measurement
+Neg_0042 | M | e hadisi lama 5.5m withara lodata thiyenne. temperature 36.5celsius walakuta inna. | එ හදිසි ලම 5.5m විතර ලෝදට තිකයන්කන්. temperature 36.5celsius වලකුට ඉන්න. | Inputs with Unit of Measurements | Multiple measurement types
+
+INPUTS WITH SLANG AND CASUAL PHRASING (2 cases):
+Neg_0043 | S | sirawata machan, uba wedin karanava natha? | සිරාවට චේ, උබ වැඩින් කරනවා නැතා? | Inputs with Slang and Casual Phrasing | Casual greeting with slang
+Neg_0044 | M | bro eka kota halkari? mama eke set walakuta inna karunakarala. uba mara karana kotuwa! | bro එක කොට හල්කරි? මම එකක් set වලකුට ඉන්න කරුණාකරලා. උබ මාර කරන කෝටුවා! | Inputs with Slang and Casual Phrasing | Multiple slang expressions
+
+ONLINE IDENTIFIERS IN SINGLISH (2 cases):
+Neg_0045 | S | mata me link eka balanna: https://youtube.com/@channel | මට නේ link එක බලන්න: https://youtube.com/@channel | Online Identifiers in Singlish | URL with path
+Neg_0046 | M | website ekata @user123 kiyala message karannam. email: contact@domain.com evanna puluwanda? | website එකට @user123 කියලා message කරන්නම්. email: contact@domain.com එවන්න පුලුවන්ද? | Online Identifiers in Singlish | Multiple online identifiers
+
+INPUTS CONTAINING EMOJIS (2 cases):
+Neg_0047 | S | mama happy 😊 oyath kada? | මම happy 😊 ඔයාත් කද? | Inputs Containing Emojis | Simple emoji in middle
+Neg_0048 | M | uba very tired 😴 nathnam work karanna one. 🎯 target eka achieve karannam 💪 | උබ very tired 😴 නැත්නම් work කරන්න ඕනේ. 🎯 target එක achieve කරන්නම් 💪 | Inputs Containing Emojis | Multiple emojis
+
+ADDITIONAL TEST CASES (2 remaining):
+Neg_0049 | L | api semester ekedi 4 subject thiyenne. Science, Maths, IT saha English. mama Science paper ekedi 85 arakagana. oyage subject thiyenna ada exam dates 2026-04-15, 2026-04-18, 2026-04-20, 2026-04-22 ayiya. Zoomekin study group ekak karamu. #ExamPrep #Study | අපි semester එකක්දී 4 subject තිකයන්කන්. Science, Maths, IT සහ English. මම Science paper එකක්දී 85 අරකගන. ඔයාකේ subject තිකයන්න අද exam dates 2026-04-15, 2026-04-18, 2026-04-20, 2026-04-22 අයිශ. Zoomෙකින් study group එකක් කරමු. #ExamPrep #Study | Multiple types combined | Long input with numbers, dates, app names, abbreviations, URLs
+
+Neg_0050 | L | machan mage graduation ceremony 2026-05-10 ekata thamai! #Proud #Family 🎓 oyata 7:30AM ekata awe kalin call karannam. mama blue suit ekat vesthaa, oyath kada? Havelock City reception ekakatai yamuda? oyage family samanya venue ekat pahala nisa transport arrange karannum. mata Rs.5000 withara budget thiyenne. kiyawada? 😅 | චේ මකේ graduation ceremony 2026-05-10 එකට තමයි! #Proud #Family 🎓 ඔයාට 7:30AM එකට ආකව් කලින් call කරන්නම්. මම blue suit එකට වෙස්තා, ඔයාත් කද? Havelock City reception එකට යමුද? ඔයාකේ family සමනය venue එකට පහලා නිසා transport arrange කරන්නුම. මට Rs.5000 විතර budget තිකයන්කන්. කියවද? 😅 | Multiple types combined | Very long input with emojis, numbers, dates, currency, time, place names, slang, URLs, abbreviations
+
+========================================================================
+NOTES:
+- All test cases are NEGATIVE (expected to fail or show conversion errors)
+- Test cases are original and do NOT appear in Appendix 1 or 2
+- Each test case is categorized with at least one Singlish input type
+- Input length types: S (≤30 chars), M (31-299 chars), L (300-450 chars)
+- Many test cases include multiple input types to test compound scenarios
