@@ -37,7 +37,7 @@ test_cases = [
     ("Neg_0026", "M", "oyage ID eka copy karada? PDF file eka convert karanna puluwanda?", "ඔයාගේ ID එක copy කරාද? PDF file එක convert කරන්න පුළුවන්ද?"),
     ("Neg_0027", "S", "mata university eke exam danna kalin study karanna one .", "මට university එකේ exam දෙන්න කලින් study කරන්න ඕනේ."),
     ("Neg_0028", "M", "ape lab ekedi project ekak gahanna kalin demo ekak karanna wei apita.", "අපේ lab එකේදී project එකක් ගහන්න කලින් demo එකක් කරන්න වෙයි අපිට."),
-    ("Neg_0029", "S", "api Galle Trip ekak  yamuda?", "අපි Galle Trip එකක් යමුද?"),
+    ("Neg_0029", "S", "api Galle Trip ekak yanne neddthida?", "අපි Galle Trip එකක් යන්නේ නැද්ද ?"),
     ("Neg_0030", "M", "ada hawasata api Colombo Fort walata shopping karamu? Dematagoda kochchiye yamuda?", "අද හවසට අපි Colombo Fort වලට shopping කරමු. Dematagoda කෝච්චියේ යමුද?"),
     ("Neg_0031", "S", "Sachini meeting ekedi baya weida?", "සාවිත්‍රී meeting එකේදී බය වෙයිද?"),
     ("Neg_0032", "M", "Pradeep nui  Dilshan nui dennama project eka hondata kara. Jayasena eko pasal eka inna.", "ප්‍රදීප් සහ දිල්ශාන් දෙන්නම project එක හොඳට කරා. ජයසේන ඒකෝ පාසල එකේ ඉන්නා."),
