@@ -1,16 +1,16 @@
-"# Chat Sinhala Transliteration - Automated Test Suite
 **Registration Number:** IT23183186  
 **Course:** IT3040 - ITPM (Year 3, Semester 1)  
 **Assessment:** Option 1 - Transliteration Accuracy Testing
 
 ## Overview
-This project contains automated test cases for evaluating the accuracy of the **Chat Sinhala Transliteration** function at [https://www.pixelssuite.com/chat-translator](https://www.pixelssuite.com/chat-translator). The test suite identifies 50 negative test cases (scenarios where the system fails to correctly convert chat-style Singlish input into Sinhala output).
+This project contains automated test cases for evaluating the accuracy of the **Chat Sinhala Transliteration** function at [https://www.pixelssuite.com/chat-translator](https://www.pixelssuite.com/chat-translator). 
+The test suite identifies 50 negative test cases (scenarios where the system fails to correctly convert chat-style Singlish input into Sinhala output).
 
 ## Test Coverage
-- **Total Test Cases:** 50 (Negative - Expected to Fail)
-- **Singlish Input Types Covered:** All 24 types specified in Assignment specification
-- **Minimum Cases per Type:** 2 (distributed across all 24 types)
-- **Remaining Cases:** 2 (additional cases covering mixed types)
+- Total Test Cases:** 50 (Negative - Expected to Fail)
+- Singlish Input Types Covered:** All 24 types specified in Assignment specification
+- Minimum Cases per Type:** 2 (distributed across all 24 types)
+- Remaining Cases:** 2 (additional cases covering mixed types)
 
 ### Input Types Covered:
 1. Question forms
@@ -39,7 +39,6 @@ This project contains automated test cases for evaluating the accuracy of the **
 24. Inputs Containing Emojis
 
 ## Project Structure
-```
 test_automation/
 ├── test_automation.py              # Main Playwright automation script
 ├── populate_excel.py               # Script to populate test cases into Excel
@@ -47,23 +46,23 @@ test_automation/
 ├── Assignment 1 - Test cases.xlsx # Excel file with test cases and results
 ├── README.md                       # This file
 └── test_cases_design.txt          # Detailed test case design documentation
-```
+
 
 ## Prerequisites
-- **Python:** 3.11 or 3.12
+  Python 3.13.7
 - **Browser:** Google Chrome (recommended) or Chromium
 - **Git:** For version control
 
 ## Installation
 
 ### Step 1: Install Python Prerequisites
-```bash
+
 # Install/upgrade pip
 pip install -U pip
 
 # Install required dependencies
 pip install playwright openpyxl
-```
+
 
 ### Step 2: Install Playwright Browsers
 ```bash
@@ -71,8 +70,33 @@ pip install playwright openpyxl
 playwright install
 ```
 
+powershell
+cd d:\test_automation\IT23183186
+Step 1: Populate the Excel structure (TC ID, Input, Expected Output):
+
+powershell
+python IT23183186_populate_excel.py
+Step 2: Add categorization columns (Input Types & Rationale):
+
+powershell
+python IT23183186_add_input_types.py
+Step 3: Run the Playwright Automation (Actual Output & Status):
+
+powershell
+# Run in background (fastest)
+python IT23183186_test_automation.py --excel "IT23183186_Assignment 1 - Test cases.xlsx" --headless
+
+# OR run with browser visible (to watch the typing)
+python IT23183186_test_automation.py --excel "IT23183186_Assignment 1 - Test cases.xlsx"
+
+Important Notes:
+Close Excel: Make sure the Excel file is closed before running any script, or it will fail to save.
+Headless Mode: The --headless flag runs the browser in the background. If you want to see the automation typing in real-time, just remove that flag.
+Time: The full automation takes about 12 minutes to finish all 50 cases.
+
+
 ### Step 3: Verify Installation
-```bash
+bash
 python --version
 pip list | grep playwright
 pip list | grep openpyxl
@@ -188,12 +212,12 @@ python test_automation.py --wait-ms 10000 --type-delay-ms 150
 ## Assignment Deliverables
 
 ### Required Files:
-1. ✅ **test_automation.py** - Full Playwright project script
-2. ✅ **populate_excel.py** - Test case population script
-3. ✅ **add_input_types.py** - Input type categorization script
-4. ✅ **Assignment 1 - Test cases.xlsx** - Completed Excel file with results
-5. ✅ **README.md** - This documentation file
-6. ✅ **Git Repository** - Public repository with all files
+1. test_automation.py** - Full Playwright project script
+2. populate_excel.py** - Test case population script
+3. add_input_types.py** - Input type categorization script
+4. Assignment 1 - Test cases.xlsx** - Completed Excel file with results
+5. README.md** - This documentation file
+6.Git Repository** - Public repository with all files
 
 ### Submission Format:
 - Files renamed with registration number: **IT23183186**
@@ -205,8 +229,6 @@ python test_automation.py --wait-ms 10000 --type-delay-ms 150
 ## Author
 **Registration Number:** IT23183186  
 **Course:** BSc (Hons) Information Technology, Year 3  
-**Unit:** IT3040 - ITPM  
-**Academic Period:** Semester 1, 2026
 
 ## License
 This project is submitted as part of academic assessment and is intended for educational purposes only.
@@ -215,7 +237,4 @@ This project is submitted as part of academic assessment and is intended for edu
 For issues or questions regarding the test automation framework, please refer to:
 - [Playwright Documentation](https://playwright.dev/python/)
 - [OpenPyXL Documentation](https://openpyxl.readthedocs.io/)
-- Assignment specification: IT3040 - ITPM
 
----
- 
